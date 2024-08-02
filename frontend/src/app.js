@@ -1,5 +1,5 @@
 import React from 'react';
-import { Counter } from './components';
+import { Counter } from './components/Counter';
 import { useFetchData } from './hook/useFetchData';
 
 export default function App() {
