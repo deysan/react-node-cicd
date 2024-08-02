@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Counter } from './components/counter';
+import React from 'react';
+import { Counter } from './components';
 import { useFetchData } from './hook/useFetchData';
 
 export default function App() {
