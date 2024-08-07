@@ -12,7 +12,7 @@ export const useFetchData = (url) => {
       try {
         await new Promise((resolve) => setTimeout(resolve, 2000));
 
-        const response = await fetch(url);
+        const response = new Response('React Node CICD');
 
         if (!response.ok) {
           throw new Error(`Error: ${response.statusText}`);
